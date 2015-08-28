@@ -30,7 +30,7 @@ A caffe template is simply a git repository with the following structure:
 ├── solver.prototxt.j2    Solver description template for training the network
 └── train.prototxt.j2     Network description template used for training and validation
 ```
-Check this [simple MNIST](https://github.com/berleon/coffee_mnist.git) example out.
+Check this [simple MNIST](https://github.com/berleon/caffemachine_mnist.git) example out.
 
 ### Download data
 
@@ -59,7 +59,7 @@ networks:
 Nice it found all the variables used in the template!
 
 Now edit it as you need. You might come up with something similar as the
-[config_example.yml](https://github.com/berleon/coffee_mnist/blob/master/config_example.yml)
+[config_example.yml](https://github.com/berleon/caffemachine_mnist/blob/master/config_example.yml)
 file from `coffee_mnist`:
 ```
 name: lenet
